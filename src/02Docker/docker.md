@@ -1,17 +1,17 @@
-#Up mongoDB Docker
+# Up mongoDB Docker
 
-``` sh
+```sh
 docker-compose up -d mongodb
 ```
 
-#Check
+# Check
 
-``` sh
+```sh
 docker-compose ps
 ```
 
-#Down docker services
+# Down docker services
 
-``` sh
+```sh
 docker-compose down
 ```
