@@ -7,7 +7,11 @@ docker-compose exec mongodb bash
 # Connect with mongosh
 
 ```sh
-mongosh "connection url"
+mongosh "mongodb://root:root123@localhost:27017/?authMechanism=DEFAULT&tls=false"
+```
+
+```sh
+mongosh "url"
 ```
 
 ```sh
